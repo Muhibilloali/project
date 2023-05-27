@@ -1,0 +1,26 @@
+
+body {  
+    /*background-image: url('ASTRUM.jpg') ;
+    background-repeat: no-repeat;*/
+    background-color: rgb(127, 214, 255);
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#name{
+    color: blue;
+}
+
+.success {
+    color: green;
+}
+
+.wrong {
+    color:red;
+}
+.truth {
+    color:#5a10f0;
+    /*font-size:x-large ;
+    font-weight: bold;*/
+   
+}
