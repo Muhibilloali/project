@@ -1,0 +1,79 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.calculator {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #5b4646;
+  background-color: black;
+}
+
+form input {
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: rgb(91, 91, 151);
+  margin: 2px;
+  border-radius: 30px;
+  color: rgb(248, 244, 244);
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.ac_operator:hover {
+  color: red;
+}
+
+form input[type="button"]:hover {
+  background-color: rgb(251, 249, 252);
+  color: black;
+}
+
+form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 20px 0px;
+}
+
+form .display input {
+  text-align: right;
+  flex: 1;
+  font-size: 40px;
+  padding: 5px 10px;
+  background-color: rgb(64, 64, 64);
+
+}
+
+form input .equal {
+  width: 123px;
+  background-color: green;
+}
+
+.equal_operator {
+  width: 123px;
+  background-color: green;
+}
+
+.operator {
+  background-color: rgb(168, 157, 41);
+  border-radius: 30px;
+}
+
+.ac_operator {
+  background-color: red;
+}
+
+.de_operator {
+  background-color: rgb(247, 93, 93);
+}
+
